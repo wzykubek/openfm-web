@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" /> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>OpenFM</title>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <img src="img/ofm_logo.svg" alt="logo">
+        <ul id="station-list"></ul>
+  
+        <div id="player">
+            <p id="stream-name"></p>
+            <div class="controller-box">
+                <i id="controller" onclick="toggleMusic()" class="fa fa-play"></i>
+                <input id="volume-slider" type="range" value="80">
+            </div>
+        </div>
+    </nav>
+
+    <div id="content"></div>
+
+    <script src="./renderer.js"></script>
+</body>
+
+</html>

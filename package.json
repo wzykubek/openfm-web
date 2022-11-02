@@ -1,0 +1,15 @@
+{
+  "name": "openfm",
+  "version": "1.0.0",
+  "description": "Custom desktop OpenFM client.",
+  "main": "main.js",
+  "author": "Wiktor Zykubek",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^21.2.1"
+  },
+  "dependencies": {}
+}
